@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.carta{
+    margin-top:60px ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: #1e335e ;
+    width: 350px;    
+    
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(128, 124, 124);
+}
+
+
+
+.cardFoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;  
+    gap: 0px;
+
+    line-height : 8px;
+}
+
+.cardFoto img{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width:150px;
+    border-radius: 70px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 2px 5px, rgb(250, 250, 250) 0px 0px 0px 5px;
+}
+.primerbtn{
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 25;
+    background-color: #9b38da;
+    background: linear-gradient(180deg, #ae63dd 0%, #8910d4 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.parrafo{
+    color: #8f99b2;
+}
+
+.flecha{
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    font-size: 25px;
+}
+.heart-icon{
+    color: white;
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    font-size: 20px;
+}
+.dot-icon{
+    color: white;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    font-size: 20px;
+}
+.separador{
+    height: 15px;
+    background-color: white;
+    margin: 10px 4px;
+}
+
+.botones{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.bton{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    line-height : 8px;
+}
+
+.botn-color{
+    font-size: 25px;
+    color: white;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    
+}
+.btn-degra1{
+    margin-bottom: 10px;
+    background-color:#ff5eaa;
+    background: linear-gradient(180deg, #812b54 0%, #a51357 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.btn-degra2{
+    margin-bottom: 10px;
+    background-color: #2511d8;
+    background: linear-gradient(180deg, #2511d8 0%, #0898f1 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn-degra{
+    margin-bottom: 10px;
+    background-color: #825cad;
+    background: linear-gradient(180deg, #b997e0 0%, rgb(7, 99, 156) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
